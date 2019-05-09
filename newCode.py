@@ -8,14 +8,7 @@ style.use('fivethirtyeight')
 
 dataset = {'k':[[1,2],[2,3],[3,1]], 'r':[[6,5], [7,7],[8,6]]}
 
-new_feature = [5,7]
-# for i in dataset:
-#     for ii in dataset[i]:
-#         plt.scatter(ii[0], ii[1], s = 100, color = i)
-#         # [[plt.scatter(ii[0],ii[1], s= 100, color = i) for ii in datasett[i]] for i in dataset]
-# new_point = [7,4]
-# plt.scatter(new_point[0], new_point[1], s = 100, color = "g")       
-# plt.show()    
+new_feature = [5,7] 
 
 def k_nearest_neighbors(data, predict, k =3):
     if len(data) >= k:
